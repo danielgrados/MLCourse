@@ -127,7 +127,8 @@ obtener_diagnostico <- function(arbol, objetivo, mi_cp = 0.01) {
   cp <- with(arbol[["modelo"]], cptable[which.min(cptable[, "xerror"]), "CP"])
   cp_original <- mi_cp
   podar <- if(cp < mi_cp) "SI" else "NO"
-  diagnostico[["mincp"]] <- data.frame("CP mÃ?nimo" = cp, "CP original" = cp_original, "Podar" = podar)
+  diagnostico[["mincp"]] <- data.frame("CP m??nimo" = cp, 
+                                       "CP original" = cp_original, "Podar" = podar)
   
   diagnostico
 } 
