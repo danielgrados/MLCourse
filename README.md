@@ -1,0 +1,2 @@
+# GeoCourse
+ Curso de Geoestadística
