@@ -1,2 +1,2 @@
-# GeoCourse
+# MLCourse
  Curso de MachineLearning
