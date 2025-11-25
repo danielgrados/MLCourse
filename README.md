@@ -1,2 +1,2 @@
 # GeoCourse
- Curso de Geoestadística
+ Curso de MachineLearning
